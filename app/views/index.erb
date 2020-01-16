@@ -1,7 +1,8 @@
 <ul>
   
-  <%=
-  
+  <%= @article.each.with_index do |article|
+    <li><%= article%> </li>
+  <%end %>
   
   
 </ul>
